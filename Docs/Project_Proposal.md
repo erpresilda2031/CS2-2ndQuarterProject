@@ -1,7 +1,7 @@
 # 📌 Project Proposal (Draft)
 
 ## 📝 Project Title  
-Student Login Project
+### Student Login Project
 
 ---
 
@@ -10,24 +10,18 @@ Student Login Project
 ---
 
 ## 🎯 Project Objectives  
-Write at least **2–3 clear objectives** your project aims to achieve. Example:  
-- Objective 1: To analyze and summarize data from the chosen JSON dataset.  
-- Objective 2: To help users gain meaningful insights (e.g., averages, trends, patterns).  
-- Objective 3: To practice JSON handling and Python programming concepts.  
+- Objective 1: Automate Real-Time Arrival Verification — To develop a Python login program that captures a student's name and current arrival timestamp, evaluating whether they are Too Early (before 5:00 AM), On Time (5:00 AM – 7:30 AM), or Tardy (after 7:30 AM, requiring an admission slip).
+- Objective 2: Streamline Morning Entry & Reduce Delays — To provide students with instant, clear feedback upon arrival so tardy students can immediately secure an admission slip before disrupting ongoing classes.
+- Objective 3: Apply Core Python Programming Concepts — To practice essential Python skills—including functions (def), string formatting (.strip(), .title()), real-time datetime handling, and conditional logic (if/elif/else)—to solve a practical school problem.
+
 
 ---
 
 ## ⚙️ Planned Features  
-Your program must have **at least 5 features (minimum)**.  
-We have provided **2 starter ideas** for each dataset — you must design **at least 3 additional features**.  
-
-- Feature 1: *(Starter idea)*  
-- Feature 2: *(Starter idea)*  
-- Feature 3: *(Your own idea)*  
-- Feature 4: *(Your own idea)*  
-- Feature 5: *(Your own idea)*  
-
-*(You may add more features if you like.)*  
+• Feature 1: Student Identification & Name Formatting (Core Login)
+Prompts the student for their first and last name, automatically cleaning up extra spaces (.strip()) and capitalizing initials (.title()) for a neat, standardized login record.
+• Feature 2: Real-Time Arrival & Admission Slip Check (Core Logic)
+Captures the exact date and system time (datetime) upon login and compares it against the school's schedule (5:00 AM opening and 7:30 AM late cut-off) to immediately display whether the student is Too Early, On Time, or Tardy (Admission Slip Required).
 
 ---
 
