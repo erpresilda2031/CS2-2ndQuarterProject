@@ -6,7 +6,8 @@
 ---
 
 ## 🔍 Problem Statement  
-• Students who arrive late or return after an absence often do not know if they need an admission slip before entering class. Checking this manually creates confusion and forces students to line up at school offices just to verify their status.
+
+- Students who arrive late or return after an absence often do not know if they need an admission slip before entering class. Checking this manually creates confusion and forces students to line up at school offices just to verify their status.
 ---
 
 ## 🎯 Project Objectives  
