@@ -1,7 +1,9 @@
 # 📌 Project Proposal (Draft)
 
 ## 📝 Project Title  
-## Student Login Project
+- `Student Login Project`
+  Brief description: A Python student login program that checks real-time arrival timestamps (5:00 AM – 7:30 AM) and previous absences to instantly determine if a student needs an admission slip.
+
 
 ---
 
