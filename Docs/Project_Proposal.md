@@ -1,7 +1,8 @@
 # 📌 Project Proposal (Draft)
 
 ## 📝 Project Title  
-### Student Login Project
+
+## Student Login Project
 
 ---
 
