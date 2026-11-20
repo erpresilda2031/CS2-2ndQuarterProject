@@ -37,15 +37,12 @@ Tracks and displays a summary at the end of the session showing the total number
 
 ## ⌨️ Planned Inputs and Outputs  
 
-- **Inputs**  
-  - What kind of data will the user provide (if any)?  
-  - Example: student ID, date range, product name  
-
-- **Outputs**  
-  - What kind of results will your program display?  
-  - Example: class averages, top products, weather summary  
-
----
-
-## 🧠 Logic Plan  
-Describe your program’s logic:  
+- Inputs
+	- First name and last name.
+	- A Yes or No response asking if the student was absent on the previous school day.
+	- A prompt asking whether to log in another student `Yes` or end the morning session `No`.
+	- The exact arrival date and timestamp automatically captured from the computer's clock.
+- Outputs
+	- The student's properly capitalized full name, current date, and exact time of arrival.
+	- A clear status message telling the student whether they are Too Early (before 5:00 AM), On Time (5:00 AM – 7:30 AM, no absence), or Admission Slip Required (arrived after 7:30 AM or absent the previous day).
+	- A final report displayed when the session ends showing the total number of students logged in, total On Time, and total Admission Slips Required. 
