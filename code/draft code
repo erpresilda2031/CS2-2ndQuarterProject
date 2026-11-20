@@ -14,7 +14,6 @@ def student_login():
     time = now.time()
     deadline = datetime.time(7, 3, 0)
     start = datetime.time(5, 0, 0)
-
 # Output
     if time <= deadline:
         print("Status: On Time, welcome!")
