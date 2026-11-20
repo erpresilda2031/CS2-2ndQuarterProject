@@ -1,4 +1,4 @@
-# 📌 Project Proposal (Draft)
+# 📌 Project Proposal
 
 ## 📝 Project Title  
 - `Student Login Project`
