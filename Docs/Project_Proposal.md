@@ -47,7 +47,7 @@ Tracks and displays a summary at the end of the session showing the total number
 	- A clear status message telling the student whether they are Too Early (before 5:00 AM), On Time (5:00 AM – 7:30 AM, no absence), or Admission Slip Required (arrived after 7:30 AM or absent the previous day).
 	- A final report displayed when the session ends showing the total number of students logged in, total On Time, and total Admission Slips Required.
 
-# wireframe
+## Program flow — How the user interacts
 ```text
 [ START PROGRAM ]
        │
@@ -66,3 +66,32 @@ Tracks and displays a summary at the end of the session showing the total number
        ├──► If "yes" ──► Loops back to [ Screen 1: Student Input ]
        │
        └──► If "no"  ──► [ Screen 3: Daily Attendance Summary ] ──► [ END PROGRAM ]
+```
+## Expected output of the program
+```text
+==========================================
+       STUDENT LOG-IN PROGRAM
+==========================================
+
+First Name: juan
+Last Name: dela cruz
+Were you absent on the previous school day? (yes/no): no
+
+------------------------------------------
+Name:   Juan Dela Cruz
+Date:   November 20, 2026
+Time:   07:18 AM
+Status: On Time, welcome!
+------------------------------------------
+
+Log in another student? (yes/no): no
+```
+```text
+==========================================
+         DAILY ATTENDANCE SUMMARY
+==========================================
+Total Students Logged In: 1
+On Time (Direct to Class): 1
+Admission Slip Required:  0
+==========================================
+```
