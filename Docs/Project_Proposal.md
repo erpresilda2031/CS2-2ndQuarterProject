@@ -45,4 +45,24 @@ Tracks and displays a summary at the end of the session showing the total number
 - Outputs
 	- The student's properly capitalized full name, current date, and exact time of arrival.
 	- A clear status message telling the student whether they are Too Early (before 5:00 AM), On Time (5:00 AM – 7:30 AM, no absence), or Admission Slip Required (arrived after 7:30 AM or absent the previous day).
-	- A final report displayed when the session ends showing the total number of students logged in, total On Time, and total Admission Slips Required. 
+	- A final report displayed when the session ends showing the total number of students logged in, total On Time, and total Admission Slips Required.
+
+# wireframe
+```text
+[ START PROGRAM ]
+       │
+       ▼
+[ Screen 1: Student Input ] ──► Enter First Name, Last Name, & Previous Absence (yes/no)
+       │
+       ▼
+[ System Check ] ─────────────► Captures live clock & checks 5:00 AM – 7:30 AM rules
+       │
+       ▼
+[ Screen 2: Status Receipt ] ─► Displays Name, Date, Time, & Admission Slip Status
+       │
+       ▼
+[ Continue Prompt ] ──────────► "Log in another student? (yes/no)"
+       │
+       ├──► If "yes" ──► Loops back to [ Screen 1: Student Input ]
+       │
+       └──► If "no"  ──► [ Screen 3: Daily Attendance Summary ] ──► [ END PROGRAM ]
