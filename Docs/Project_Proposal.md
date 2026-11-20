@@ -99,4 +99,4 @@ Admission Slip Required:  0
 ```
 
 ## 📂 GitHub Repository Link    
-https://github.com/erpresilda2031/CS2-2ndQuarterProject/blob/main/Docs/Project_Proposal.md  
+[https://github.com/erpresilda2031/project-proposal](https://github.com/erpresilda2031/CS2-2ndQuarterProject/blob/main/Docs/Project_Proposal.md)  
