@@ -1,28 +1,27 @@
 import datetime
 
 def student_login():
+# Handles user's name
+    fname = input("\nFirst Name: ").strip().title()
+    lname = input("Last Name: ").strip().title()
+    print(f"\nName: {fname} {lname}")
 
-# Handles w/ the users name
-    fname = input("\nFirst Name: ")
-    lname = input("Last Name: ")
-    name = print("\nName:", fname.strip().title(), lname.strip().title())
-
-# Handles w/ date & time    
-    date = print("Date:", datetime.datetime.now().strftime("%B %-d, %Y"))
+# Handles date & time    
     now = datetime.datetime.now()
-    time = now.time()
-    deadline = datetime.time(7, 3, 0)
-    start = datetime.time(5, 0, 0)
+    print("Date:", now.strftime("%B %d, %Y"))
+    print("Time:", now.strftime("%I:%M %p"))
+    
+    current_time = now.time()
+    start = datetime.time(5, 0, 0)      # 5:00 AM campus opening
+    deadline = datetime.time(7, 30, 0)  # 7:30 AM tardy cut-off
 
-# Checks if the user is early, on time, or tardy   
-    if time <= deadline:
-        print("Status: On Time, welcome!")
-    elif time < start:
+# Checks if the user is too early, on time, or tardy   
+    if current_time < start:
         print("Status: Too Early, please come again later.")
+    elif current_time <= deadline:
+        print("Status: On Time, welcome!")
     else:
         print("Status: Tardy, please get an admission slip.")
 
 print("----- STUDENT LOG-IN PROGRAM -----")
-
-
 student_login()
