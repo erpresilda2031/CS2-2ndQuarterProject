@@ -98,6 +98,5 @@ Admission Slip Required:  0
 ==========================================
 ```
 
-## 📂 GitHub Repository Link  
-Paste your GitHub repository link here:  
-``  
+## 📂 GitHub Repository Link    
+`https://github.com/erpresilda2031/CS2-2ndQuarterProject/blob/main/Docs/Project_Proposal.md`  
